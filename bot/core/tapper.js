@@ -208,7 +208,6 @@ class Tapper {
       const jsonData = {
         data: decodeURIComponent(this.#clean_tg_web_data(tgWebData)),
       };
-      console.log(jsonData);
 
       return jsonData;
     } catch (error) {
